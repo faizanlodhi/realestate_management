@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_estate" name="Estate" sequence="10"/>
+
+    <menuitem id="menu_estate_properties" name="Properties" parent="menu_estate" sequence="10"/>
+
+    <menuitem id="menu_estate_properties_action" name="Property List" parent="menu_estate_properties" sequence="10" action="action_estate_property"/>
+</odoo>
